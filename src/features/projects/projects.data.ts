@@ -40,6 +40,26 @@ export const PROJECTS: Project[] = [
     stack: ['PHP', 'HTML & CSS', 'Docker', 'HTTP', 'MySQL', 'IA Modeling'],
     links: [],
   },
+  {
+    id: 'avba-proto',
+    title: 'AVBA Proto - on AVBA',
+    description: {
+      en: 'An internal system for a volleyball club store: snack bar and team items, prepaid customer balance, court scheduling, monthly fees with email reminders, and a password-protected finance area.',
+      pt: 'Sistema interno da loja de um clube de vôlei: lanchonete e itens do time, saldo pré-pago por cliente, agenda das quadras, mensalidades com lembrete por e-mail e área financeira protegida por senha.',
+    },
+    stack: ['React', 'TypeScript', 'Java', 'Spring Boot', 'MySQL', 'Flyway', 'Docker'],
+    links: [],
+  },
+  {
+    id: 'honey-phiz',
+    title: 'HoneyPhiz - Personal project',
+    description: {
+      en: 'A family personal finance app. Data stays only on your own computer (local SQLite) and the phone is just a screen talking to it. Front end embedded in the Go binary.',
+      pt: 'App de finanças pessoais para uso familiar. Os dados ficam só no seu computador (SQLite local) e o celular é só uma tela que fala com ele. Front embutido no binário Go.',
+    },
+    stack: ['Go', 'SQLite', 'React Native (Expo)', 'NativeWind', 'TypeScript'],
+    links: [],
+  },
 ]
 
 {/*
